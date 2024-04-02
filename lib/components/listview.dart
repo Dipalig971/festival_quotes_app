@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import '../utils/festival_list.dart';
 
 
@@ -38,9 +37,14 @@ Widget listviewBox(String name , String img) {
 }
 
 Widget List_view() {
-  return ListView.builder(itemBuilder: (context, index) =>
-      listviewBox(
-        festivallist[index]['name'],
-        festivallist[index]['img'],
-      ), itemCount: festivallist.length,);
+  return InkWell(
+    onTap: () {
+     // Navigator.of(context).pushNamed('/');
+    },
+    child: ListView.builder(itemBuilder: (context, index) =>
+        listviewBox(
+          festivallist[index]['name'],
+          festivallist[index]['img'],
+        ), itemCount: festivallist.length,),
+  );
 }
