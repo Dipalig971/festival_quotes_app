@@ -16,5 +16,15 @@ List colorlist=[
 ];
 
 List fontlist=[
-  GoogleFonts.aBeeZee(),
+  GoogleFonts.nunito,
+  GoogleFonts.playfairDisplay,
+  GoogleFonts.roboto,
+  GoogleFonts.lato,
+  GoogleFonts.kanit,
+  GoogleFonts.montserrat,
+  GoogleFonts.oswald,
+  GoogleFonts.raleway,
+  GoogleFonts.quicksand,
+  GoogleFonts.poppins,
+  GoogleFonts.workbench,
 ];
