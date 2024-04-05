@@ -1,6 +1,9 @@
-import 'package:festival_quotes_app/screen/homescreen.dart';
+import 'package:festival_quotes_app/screen/editscreen/editscreen.dart';
+import 'package:festival_quotes_app/screen/edittemplate/editscreen.dart';
+import 'package:festival_quotes_app/screen/homescreen/homescreen.dart';
 import 'package:festival_quotes_app/screen/spalshscreen.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(const Festival_quotes_app());
@@ -15,7 +18,7 @@ class Festival_quotes_app extends StatelessWidget {
       theme: ThemeData(
         textTheme: const TextTheme(
           titleLarge: TextStyle(
-            fontSize: 30,
+            fontSize: 33,
             fontWeight: FontWeight.bold,
             color: Colors.white,
           ),
@@ -35,6 +38,8 @@ class Festival_quotes_app extends StatelessWidget {
       routes: {
         '/':(context) => const Splashscreen(),
         '/home':(context) => const Homescreen(),
+        '/edit':(context) => const Editscreen(),
+        '/template':(context) => EdittemplateScreen(),
       },
     );
   }

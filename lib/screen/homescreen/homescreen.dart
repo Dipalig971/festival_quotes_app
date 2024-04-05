@@ -1,8 +1,9 @@
-import 'package:festival_quotes_app/components/gridview.dart';
 import 'package:festival_quotes_app/utils/festival_list.dart';
 import 'package:flutter/material.dart';
-
-import '../components/listview.dart';
+import 'components/grid_view_bulider.dart';
+import 'components/gridview.dart';
+import 'components/list_view_builder.dart';
+import 'components/listview.dart';
 
 class Homescreen extends StatefulWidget {
   const Homescreen({super.key});
