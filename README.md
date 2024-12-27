@@ -1,20 +1,44 @@
-# festival_quotes_app
+# Festival Post App 🎉
 
-A new Flutter project.
+## The `Festival Post App` is a mobile application designed to help users create and share beautifully crafted festival posts. With easy-to-use templates and tools, users can design, save, and share their posts for various festivals and occasions effortlessly.
 
-## Getting Started
+# Features ✨
 
-This project is a starting point for a Flutter application.
+## 1. Festival Post Templates
+- A library of festival-themed templates to match global celebrations.
+- Categories for easy navigation and quick selection of templates.
+## 2. Customizable Posts
+- Personalize templates by editing text, colors, fonts, and images.
+- Add stickers, filters, and effects for unique creations.
+## 3. Save to Gallery
+- Save finalized designs directly to your device’s gallery using the image_gallery_saver package.
+- Access your saved posts offline anytime.
+## 4. File Management
+- Manage app files efficiently with the path_provider package.
+- Save drafts, access temporary files, and store user-generated content.
+## 5. Share Across Platforms
+- Instantly share festival posts via WhatsApp, Instagram, Facebook, Twitter, and more using the share_extend package.
+- Share high-quality images or drafts directly from the app.
 
-A few resources to get you started if this is your first Flutter project:
+## Add Necessary Dependencies
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  share_extend: ^2.0.0
+  path_provider: any
+  image_gallery_saver: any
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-<p>
+```
+
+Run `flutter pub get` to install the new dependencies.
+
+
+
+## ScreenShot
+
 
   <img src="https://github.com/Dipalig971/festival_quotes_app/assets/143181151/e6e129e1-0d14-42e2-9f19-0d78b8f4ab05" height=35% width=22%>
   
@@ -36,4 +60,3 @@ samples, guidance on mobile development, and a full API reference.
   
   <img src="https://github.com/Dipalig971/festival_quotes_app/assets/143181151/07029a2b-7513-4527-8622-a73736ec3ce9" height=35% width=22%>
   
-</p>
